@@ -55,7 +55,7 @@ public class Department {
 		employees.remove(employee);
 	}
 	
-	public Double payrrol() {
+	public Double payroll() {
 		double sum = 0;
 		for (Employee emp : employees) {
 			sum += emp.getSalary();
