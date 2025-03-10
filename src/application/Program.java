@@ -53,7 +53,7 @@ public class Program {
 	
 	public static void showReport(Department department) {
 		System.out.println("FOLHA DE PAGAMENTO:");
-		System.out.printf("Departamento %s = R$ %.2f\n", department.getName(), department.payrrol());
+		System.out.printf("Departamento %s = R$ %.2f\n", department.getName(), department.payroll());
 		System.out.println("Pagamento realizado no dia " + department.getPayDay());
 		System.out.println("Funcionários: ");
 		for (Employee emp : department.getEmployees()) {
